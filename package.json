@@ -1,15 +1,15 @@
 {
-  "name": "nodeQaeApi",
+  "name": "nodeqslpapi",
   "version": "0.0.1",
-  "description": "This package file is for all the dependencies for the Node QAE API Helper",
+  "description": "This package file is for all the dependencies for the Node QSLP API Helper",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrmikeo/nodeqaeapi.git"
+    "url": "git+https://github.com/qredit/nodeqslpapi.git"
   },
   "dependencies": {
     "big.js": "^5.2.2",
-    "nodeQreditApi": "git+https://github.com/mrmikeo/nodeqreditapi.git",
+    "nodeQreditApi": "git+https://github.com/qredit/nodeqreditapi.git",
     "request": "^2.88.0"
   },
   "devDependencies": {},

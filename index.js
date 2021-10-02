@@ -1,7 +1,7 @@
 /**
- * @module qaeApi
+ * @module qslpApi
  * @license MIT
  */
 
-module.exports = require("./lib/qaeApi");
+module.exports = require("./lib/qslpApi");
 

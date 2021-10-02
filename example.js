@@ -2,14 +2,14 @@
   Example of using this library without NPM install
 */
 
-const qaeApi = require("./lib/qaeApi");
-const qae = new qaeApi.default();
+const qslpApi = require("./lib/qslpApi");
+const qslp = new qslpApi.default();
 
 
 (async () => {
-  
-  var tokenList = await qae.listTokens();
-  
+
+  var tokenList = await qslp.listTokens();
+
   console.log(tokenList);
-  
+
 })();

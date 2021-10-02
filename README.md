@@ -1,51 +1,53 @@
-# Node Qredit QAE API Helper
+# Node Qredit QSLP API Helper
 
 [![https://telegram.me/@MrMike_O](https://img.shields.io/badge/💬%20Telegram-MrMike__O-blue.svg)](https://telegram.me/@MrMike_O)
 
+A Promised NodeJS Module for connecting with the Qredit QSLP API
 
-A Promised NodeJS Module for connecting with the Qredit QAE API
-
-A Full Integration Guide for both QreditAPI and QAE can be found here:  [Qredit Integration Guide](https://github.com/mrmikeo/nodeqreditintegration)
+A Full Integration Guide for both QreditAPI and QSLP can be found here: [Qredit Integration Guide](https://github.com/qredit/nodeqreditintegration)
 
 ## Install via git
+
 ```
-git clone https://github.com/mrmikeo/nodeqaeapi
-cd nodeqaeapi
+git clone https://github.com/qredit/nodeqslpapi
+cd nodeqslpapi
 npm install
 
 node example.js
 ```
 
 example.js:
+
 ```
-const qaeApi = require("./lib/qaeApi");
-const qae = new qaeApi.default();
+const qslpApi = require("./lib/qslpApi");
+const qslp = new qslpApi.default();
 
 
 (async () => {
-  
-  var tokenList = await qae.listTokens();
-  
+
+  var tokenList = await qslp.listTokens();
+
   console.log(tokenList);
-  
+
 })();
 ```
 
 ## Install via npm
+
 ```
-npm install --save https://github.com/mrmikeo/nodeqaeapi
+npm install --save https://github.com/qredit/nodeqslpapi
 ```
 
 ```
-const qaeApi = require("nodeQaeApi");
-const qae = new qaeApi.default();
+const qslpApi = require("nodeQslpApi");
+const qslp = new qslpApi.default();
 
 
 (async () => {
-  
-  var tokenList = await qae.listTokens();
-  
+
+  var tokenList = await qslp.listTokens();
+
   console.log(tokenList);
-  
+
 })();
 ```
